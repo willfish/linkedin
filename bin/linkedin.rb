@@ -2,6 +2,7 @@
 
 require 'bundler/setup'
 require 'trollop'
+require 'my_drive/linkedin.rb'
 
 config = Trollop::options do
   opt :input_dir, "Specify an rds instance to validate.", type: String, required: true
